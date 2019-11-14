@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1200px)
+{
+  header{
+    height: 65vh;
+  }
+  .property-content{
+    margin-left: .3rem;
+  }
+  .mobile-menu span{
+    cursor: pointer;
+  }
+  .service-description {
+    margin-bottom: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+     header{
+       height: 55vh;
+     }
+     .navigation-bar{
+       margin-right: 1.5rem;
+     }
+  .main-nav{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  .contact-section form{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 980px){
+  .span_1_of_4{
+    width: 49.2%;
+    margin-left: 0;
+  }
+  .service-description{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 480px){
+   .span_1_of_4{
+     width: 100%;
+   }
+   .contact-section h2,
+   .service-section h2{
+     font-size: 3.5rem;
+   }
+}
